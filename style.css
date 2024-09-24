@@ -1,0 +1,21 @@
+header {
+  background-image: url("img/Fundo\ guardanapo\ azul\ 1920x1080.png");
+  background-size: auto; /* Cobre toda a área */
+  background-repeat: no-repeat;
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+header h1 {
+  font-family: Pierson;
+  font-size: 70px;
+  color: #3e5469;
+}
+header h2 {
+  font-family: Pierson-Thin;
+  font-size: 30px;
+  color: #3e5469;
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 10px;
+}
