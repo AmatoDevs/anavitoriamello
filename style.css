@@ -1,6 +1,6 @@
 header {
   background-image: url("img/Fundo\ guardanapo\ azul\ 1920x1080.png");
-  background-size: auto; /* Cobre toda a área */
+  background-size: cover; /* Cobre toda a área */
   background-repeat: no-repeat;
   text-align: center;
   padding-top: 60px;
