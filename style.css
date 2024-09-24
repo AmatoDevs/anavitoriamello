@@ -1,21 +1,49 @@
+body {
+  background-color: #f0f4f8; /* Cor de fundo leve */
+}
+
 header {
-  background-image: url("img/Fundo\ guardanapo\ azul\ 1920x1080.png");
+  background-image: url("img/Fundo guardanapo azul 1920x1080.png");
   background-size: cover; /* Cobre toda a área */
   background-repeat: no-repeat;
+  background-position: center; /* Centraliza a imagem */
   text-align: center;
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding: 80px 20px; /* Mais espaço em cima e embaixo, menos nas laterais */
+  color: #ffffff; /* Cor do texto */
 }
+
 header h1 {
-  font-family: Pierson;
-  font-size: 70px;
-  color: #3e5469;
+  font-family: "Pierson", serif; /* Adicione uma fonte de fallback */
+  font-size: 4rem; /* Usando rem para responsividade */
+  color: #3e5469; /* Cor do h1 */
+  margin-bottom: 20px; /* Espaço abaixo do título */
 }
+
 header h2 {
-  font-family: Pierson-Thin;
-  font-size: 30px;
-  color: #3e5469;
+  font-family: "Pierson-Thin", serif; /* Adicione uma fonte de fallback */
+  font-size: 2rem; /* Usando rem para responsividade */
+  color: #4a4e69; /* Texto secundário mais escuro */
   text-transform: uppercase;
   font-weight: 400;
-  letter-spacing: 10px;
+  letter-spacing: 2px; /* Ajuste do espaçamento */
+}
+
+.navbar {
+  background-color: #a0c4d0; /* Cor de fundo da barra de navegação */
+}
+
+main {
+  margin-bottom: 80px; /* Espaço para o rodapé fixo */
+}
+
+footer {
+  background-color: #3e5469; /* Cor do rodapé */
+  color: #ffffff; /* Texto branco para contraste */
+  padding: 20px;
+  text-align: center;
+  position: fixed; /* Fixa o rodapé */
+  bottom: 0; /* Coloca o rodapé na parte inferior */
+  left: 0; /* Alinha o rodapé à esquerda */
+  width: 100%; /* Faz o rodapé ocupar toda a largura da página */
+  z-index: 1000; /* Garante que o rodapé fique acima de outros elementos */
 }
