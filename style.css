@@ -58,4 +58,18 @@ footer {
   width: 100%; /* Faz o rodapé ocupar toda a largura da página */
   z-index: 1000; /* Garante que o rodapé fique acima de outros elementos */
 }
-
+div iframe {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+h2 {
+  text-align: center;
+  font-family: "Pierson-Thin", serif; /* Adicione uma fonte de fallback */
+  font-size: 2rem; /* Usando rem para responsividade */
+  color: #4a4e69; /* Texto secundário mais escuro */
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 2px; /* Ajuste do espaçamento */
+}
+}
